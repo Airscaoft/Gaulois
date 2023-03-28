@@ -30,4 +30,10 @@ public class Romain {
 		}
 	}
 	
+	public static void main(String[] args) {
+		Romain cesar = new Romain("César", 2);
+		System.out.println(cesar.prendreParole());
+		cesar.parler("Moi je! Moi je! Moi je!");
+		cesar.recevoirCoup(2);
+	}
 }
